@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - staging
-  workflow_dispatch:{}
+  workflow_dispatch: {}
   release:
     types: published
 
@@ -77,6 +77,3 @@ jobs:
             --platform "managed" \
             --allow-unauthenticated \
             --tag staging
-        
-          
-        
